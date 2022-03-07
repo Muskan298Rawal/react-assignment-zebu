@@ -1,24 +1,47 @@
 .App {
   text-align: center;
-}
-.inner-box{
+ }
+ .inner-box {
   border-radius: 10px;
   padding: 4em 1em;
   background-color: #ebebeb;
   color: black;
   border: 1px dashed grey;
-}
-.outer-box{
+ }
+ .outer-box {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-.btn{
-  color: #fff;
-  background-color: black;
+ }
+ .btn {
+  color: #fff !important;
+  background-color: black !important;
   border-radius: 5px;
   padding: 10px;
   margin: 30px 15px;
   width: 50%;
   cursor: pointer;
+ }
+ .label-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .label-btn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+ }
+.outer-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+} 
+.MuiButton-root.Mui-disabled{
+  background: grey !important;
+
 }
